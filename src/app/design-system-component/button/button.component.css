@@ -1,0 +1,11 @@
+:host {
+    border: 1px solid black;
+    padding: 8px;
+    display: inline-block;
+}
+
+:host.--primary {
+    border: none;
+    background: black;
+    color: white;
+}
